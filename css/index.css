@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.container {
+    scroll-behavior: smooth;
+}
+
+.btn-top {
+    position: fixed;
+    
+    margin: auto;
+    bottom:10px;
+    right: 10px;
+    justify-content: center;
+}
+.btn-top img {
+    margin:auto;
+    
+}
+.btn-top a  {
+text-align: center;
+}
+
+.menu {
+
+    display: flex;
+    width: 100%;
+
+    justify-content: flex-end;
+    margin: auto;
+
+}
+
+.logo img {
+    max-width: 189px;
+    padding: 0px 0px;
+    margin: auto;
+}
+
+nav {
+    max-width: 1088px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 0px 0px;
+    z-index: 99999;
+
+
+}
+
+
+nav ul {
+    display: flex;
+    max-width: 1088px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #0040A8;
+    text-decoration: none;
+    padding: 20px 0px 20px 0px;
+    margin-left: 40px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight:500;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #0040A8;
+    padding-bottom: 18px;
+}
+
+
+
+.ingleslink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.ingleslink:hover {
+    border-bottom: 2px solid #0040A8;
+}
+
+.ingleslink img {
+    padding-right: 8px;
+}
+
+.container {
+    max-width: 1088px;
+    margin: auto;
+    padding: 5px 0px;
+}
+
+
+.video-responsive {
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16/9 ratio */
+    padding-top: 0px;
+    /* IE6 workaround*/
+    height: auto;
+    overflow: visible;
+}
+
+.video-responsive video {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+video::-webkit-media-controls-panel {
+    background: #11284B !important;
+    height: 50px !important;
+    bottom: 0px !important;
+    position: absolute !important;
+    width: 100% !important;
+}
+
+video::-webkit-media-controls-timeline {
+    display: none !important;
+}
+
+.banner_uno {
+    width: 100%;
+    padding-top: 40px;
+}
+
+/* Mejor banco del año */
+
+.mejor-banco {
+    
+    max-width: 1080px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    
+
+}
+
+.mejor-banco img {
+    max-width: 100%;
+    width: 1000px;
+    padding: 15px 20px 15px 20px;
+}
+
+.mejor-banco p {
+    padding: 0 30px;
+}
+.mejor-banco h1 {
+    padding: 20px 30px;
+    color: #0040A8;
+}
+.mejor-text {
+    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.resultados h1 {
+    padding-top: 65px;
+    color: #FF8820;
+    text-align: center;
+}
+
+.resultados p {
+    padding: 30px;
+    margin: auto;
+    max-width: 529px;
+    color: #5C5C5C;
+    width: 100%;
+    text-align: center;
+}
+p {
+    line-height: 28px;
+    color: #5C5C5C;
+}
+
+.resultados img {
+    max-width:90%;
+    padding:20px 0px;
+
+}
+
+
+.res {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    
+}
+
+.estamos_para_ti h1 {
+    padding-top: 65px;
+    color: #002C76;
+    text-align: center;
+}
+
+.estamos_para_ti p {
+    padding: 30px;
+    margin: auto;
+    max-width: 529px;
+    color: #5C5C5C;
+    width: 100%;
+    text-align: center;
+}
+p {
+    line-height: 28px;
+    color: #5C5C5C;
+}
+.banner_dos {
+    cursor: pointer;
+    margin: 0px 0px 60px 0px;
+    max-width: 100%;
+}
+
+
+.footer {
+    padding:10px 0px;
+    width: 100%;
+    background-color:#E8E8E8 ;
+}
+
+.footer .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    transition: none;
+}
+
+.footer .redes {
+    display:flex ;
+    align-items: center;
+    transition: none;
+}
+.footer .redes a img {
+    padding:10px;
+    transition: none;
+}
+.footer .redes  a {
+    transition: none;
+    text-decoration: none;
+}
+.mapa {
+    overflow: hidden;
+}
+
+.mapa1 {
+    transition:all  .5s ease;
+    display: block;
+    animation-name: entrada;
+    
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    
+}
+.mapa2 {
+    display: none;
+   transition: all .5s ease;
+   animation-name: entrada;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+}
+
+@keyframes entrada {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.slide_estamos {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.mapa img {
+    max-width: 100%;
+}
+.boton1, .boton2 {
+    transition: all .3s ease;
+    display: flex;
+    margin: 10px 20px 20px 50px;
+    justify-content: flex-start;
+    align-items: center;
+    padding:20px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+}
+
+.boton1:hover {
+    box-shadow: rgba(0,0,0,.3) 0px 2px 8px !important;
+}
+
+.boton2:hover {
+    box-shadow: rgba(0,0,0,.3) 0px 2px 8px !important;
+}
+
+.boton1 {
+    box-shadow: rgba(0,0,0,.3) 0px 2px 8px;
+}
+.botones {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.botones p {
+    padding-left: 20px;
+}
+
+

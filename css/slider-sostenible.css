@@ -1,0 +1,259 @@
+/* desarrollo sostenible */
+.sostenible {
+    width: 100%;
+}
+
+.sostenible h1 {
+    padding-top: 65px;
+    color: #8FB634;
+    text-align: center;
+}
+
+.sostenible p {
+    padding: 30px;
+    margin: auto;
+    max-width: 529px;
+    color: #5C5C5C;
+    width: 100%;
+    text-align: center;
+}
+
+.sostenible p ul li {
+    list-style-type: circle;
+
+    margin: auto;
+    max-width: 529px;
+    color: #5C5C5C;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+p {
+    line-height: 28px;
+    color: #5C5C5C;
+}
+
+.sostenible .slider {
+    width: 100%;
+    margin: auto;
+
+}
+
+.sostenible .owl-carousel .owl-stage-outer {
+    padding: 20px 0px;
+    transition: all .5s ease;
+}
+
+.sostenible .card,
+.owl-item {
+    transition: all .5s ease-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    transition: all .5s ease;
+}
+
+.sostenible .owl-wrapper {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 0px 0;
+    padding: 0px;
+
+}
+
+.sostenible .cards {
+    position: relative;
+    height: auto;
+
+    margin: auto;
+    max-width: 936px;
+    padding: 0 0;
+    background-color: #fefefe;
+}
+
+.sostenible .card {
+
+    display: flex;
+    justify-content: center;
+
+    max-width: 474px;
+    padding: 0;
+    margin:0;
+    border-radius: 4px;
+    opacity: 0.7;
+    transform: scale(0.87);
+    transition: transform 0.4s 0.5s ease-out, opacity .5s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.sostenible .active .card {
+
+    box-shadow: 0 0px 1em rgba(0, 0, 0, 0.2);
+    transform: box-shadow 0.3s ease, transform 0..5s 0.4s ease-in, opacity 0.4s ease;
+}
+
+.sostenible .card__content {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+}
+
+.sostenible .card__content h4 {
+    color: #8FB634;
+
+}
+
+.sostenible .card__content img {
+    padding: 40px 0px 30px 0px;
+    max-width: 80px;
+
+}
+
+.sostenible .card__content p {
+    opacity: 1;
+
+    color: #5C5C5C;
+    max-width: 90%;
+    text-align: left;
+    padding-bottom: 40px;
+    font-size: 16px;
+
+}
+
+.sostenible .card__content ul {
+    color: #5C5C5C;
+    max-width: 80%;
+    text-align: left;
+    padding: 20px 0px;
+    opacity: 1;
+    font-size: 16px;
+
+}
+
+.sostenible .card__content ul li {
+    line-height: 25px;
+    color: #5C5C5C;
+    list-style-position: outside;
+    text-align: left;
+    padding: 10px 0px;
+    margin-left: 20px;
+    opacity: 1;
+    font-size: 16px;
+
+}
+
+.sostenible .active .card__content {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+    transition: all .5s ease;
+}
+
+.sostenible .card__title {
+    display: inline-block;
+    font-size: 2em;
+
+
+}
+
+.sostenible .card__title span {
+    display: inline-block;
+    transition: all ease;
+
+}
+
+.sostenible .center.active .card__title span,
+.sostenible .center.active.cloned:last-child .card__title span,
+.sostenible .center.active .card__content img {
+
+    opacity: 1;
+
+}
+
+.sostenible .center .card {
+
+    opacity: 1;
+    transform: scale(1);
+    padding: 20px 0px;
+}
+
+.sostenible .owl-item .card {
+
+    background-color: #FFFFFF;
+}
+
+.sostenible .owl-dot {
+    transition: all .5s ease;
+    border-radius: 50px;
+}
+.sostenible .owl-dots {
+    display: flex;
+    align-items: center;
+}
+.sostenible .owl-theme .owl-dots .owl-dot span {
+    width: 7px;
+    height: 7px;
+    margin: 0 0.5em;
+    transition: all .5s ease;
+
+    display: flex;
+    border-radius: 50px !important;
+    border: 2px solid #8FB634;
+
+    transition: opacity 0.2s ease;
+    border-radius: 0;
+}
+
+.sostenible .owl-dot span {
+    border-radius: 50px;
+    transition: all .2s ease;
+
+}
+
+.sostenible .owl-theme .owl-dots .owl-dot.active span,
+.sostenible .owl-theme .owl-dots .owl-dot:hover span {
+    background: #8FB634;
+    border-radius: 50px;
+    transition: all .1s ease;
+    width: 13px;
+    height: 13px;
+}
+
+.sostenible .owl-dots {
+
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    transition: all .5s ease;
+}
+
+.sostenible .owl-prev {
+    
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    left: -60px;
+    position: absolute;
+    background-image: url('../img/prev1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sostenible .owl-next {
+
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    right: -80px;
+    display: block;
+    position: absolute;
+    background-image: url('../img/next1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

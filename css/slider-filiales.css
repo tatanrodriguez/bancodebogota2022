@@ -1,0 +1,276 @@
+/*  filiales */
+.filiales {
+    width: 100%;
+}
+
+.filiales h1 {
+    padding-top: 65px;
+    color: #0BBBEF;
+    text-align: center;
+}
+
+.filiales p {
+    padding: 30px 0px 20px 0px;
+    margin: auto;
+    max-width: 529px;
+    color: #5C5C5C;
+    width: 100%;
+    text-align: center;
+}
+
+.filiales p ul li {
+    list-style-type: circle;
+
+    margin: auto;
+    max-width: 529px;
+    color: #5C5C5C;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    line-height: 28px;
+    color: #5C5C5C;
+}
+
+.filiales .slider {
+    width: 100%;
+    margin: auto;
+
+}
+
+.filiales .owl-carousel .owl-stage-outer {
+    padding: 20px 0px;
+    transition: all .5s ease;
+}
+
+.filiales .card,
+.owl-item {
+    transition: all .5s ease-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    transition: all .5s ease;
+}
+
+.filiales .owl-wrapper {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 0px 0;
+    padding: 0px;
+
+}
+
+.filiales .cards {
+    position: relative;
+    height: auto;
+
+    margin: auto;
+    max-width: 936px;
+    padding: 0 0;
+    background-color: #fefefe;
+}
+
+.filiales .card {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    opacity: 0.7;
+
+
+}
+
+
+
+.filiales .card__content {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+}
+
+.filiales .card__content h4 {
+    color: #0BBBEF;
+
+}
+
+.filiales .card__content .logo {
+    padding: 0px 0px 10px 0px;
+    max-width: 170px;
+
+}
+
+.filiales .card__content .multibank {
+    max-width:400px;
+
+}
+
+.filiales .card__content .fiduciaria {
+    max-width:300px;
+
+}
+
+.filiales .card__content .almaviva {
+    max-width:230px;
+
+    
+}
+
+.filiales .card__content .panama {
+    max-width:230px;
+
+}
+.filiales .card__content img.filial {
+    max-width: 850px;
+    padding-top:20px;
+}
+
+.filiales .card__content p {
+    opacity: 1;
+
+    color: #5C5C5C;
+    max-width: 90%;
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.filiales .card__content ul {
+    color: #5C5C5C;
+    max-width: 90%;
+    text-align: left;
+    padding: 20px 0px;
+    opacity: 1;
+    font-size: 16px;
+
+}
+
+.filiales .card__content ul li {
+    line-height: 28px;
+    color: #5C5C5C;
+    list-style-position: outside;
+    text-align: left;
+    padding: 10px 0px;
+    margin-left: 20px;
+    opacity: 1;
+    font-size: 16px;
+
+}
+
+.filiales .active .card__content {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+    transition: all .5s ease;
+}
+
+.filiales .card__title {
+    display: inline-block;
+    font-size: 2em;
+
+
+}
+
+.filiales .card__title span {
+    display: inline-block;
+    transition: all ease;
+
+}
+
+.filiales .center.active .card__title span,
+.filiales .center.active.cloned:last-child .card__title span,
+.filiales .center.active .card__content img {
+
+    opacity: 1;
+
+}
+
+.filiales .center .card {
+
+    opacity: 1;
+    transform: scale(1);
+    padding: 20px 0px;
+}
+
+.filiales .owl-item .card {
+
+    background-color: #FFFFFF;
+}
+
+.filiales .owl-dot {
+    transition: all .5s ease;
+    border-radius: 50px;
+}
+.filiales .owl-dots {
+    display: flex;
+    align-items: center;
+}
+.filiales .owl-theme .owl-dots .owl-dot span {
+    width: 7px;
+    height: 7px;
+    margin: 0 0.5em;
+    transition: all .5s ease;
+
+    display: flex;
+    border-radius: 50px !important;
+    border: 2px solid #0BBBEF;
+
+    transition: opacity 0.2s ease;
+    border-radius: 0;
+}
+
+.filiales .owl-dot span {
+    border-radius: 50px;
+    transition: all .2s ease;
+
+}
+
+.filiales .owl-theme .owl-dots .owl-dot.active span,
+.filiales .owl-theme .owl-dots .owl-dot:hover span {
+    background: #0BBBEF;
+    border-radius: 50px;
+    transition: all .1s ease;
+    width: 13px;
+    height: 13px;
+}
+
+.filiales .owl-dots {
+
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    transition: all .5s ease;
+}
+
+.filiales .owl-prev {
+
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    left: -60px;
+    position: absolute;
+    background-image: url('../img/prev2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.filiales .owl-next {
+
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    right: -80px;
+    position: absolute;
+    background-image: url('../img/next2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

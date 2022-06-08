@@ -1,0 +1,196 @@
+@media screen and (max-width: 1150px) {
+    .container {
+        width:90%;
+        
+    }
+    .menu {
+        width: 90%;
+        max-width: 90%;
+    }
+    nav ul {
+        max-width: 90%;
+        width: 90%;
+        display: none;
+        
+    }
+    nav  {
+        height: 67px;
+        max-width: 90%;
+        width: 90%;
+    }
+
+    .sostenible .slider {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    
+    }
+    .mejor-banco {
+
+    flex-direction: column;
+   
+    }
+
+    .filiales .slider {
+        width: 90%;
+        margin: auto;
+    
+
+        
+    }
+    .footer .container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: none;
+    }
+
+    .estamos_para_ti p {
+       
+        width: 90%;
+   
+    }
+
+    .estamos_para_ti h1 {
+       
+        width: 90%;
+   
+    }
+    
+    .resultados h1 {
+        width: 90%;
+    }
+    
+    .resultados p {
+        width: 90%;
+    }
+    .sostenible h1 {
+        width: 90%;
+    }
+    
+    .sostenible p {
+        width: 90%;
+    }
+
+    .sostenible .owl-prev {
+
+       
+    }
+    
+    .sostenible .owl-next {
+    
+        
+    }
+
+    .filiales .owl-prev {
+
+        display: none;
+     }
+     
+     .filiales .owl-next {
+     
+         display: none;
+     }
+
+     .owl-stage {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+    
+
+     .sostenible .card {
+    margin: auto; 
+    max-width: 90%;
+    box-shadow: none;
+    
+    }
+
+    .sostenible .active .card {
+
+      
+        transform: box-shadow 0.3s ease, transform 0..5s 0.4s ease-in, opacity 0.4s ease;
+    }
+
+    .mejor-banco img {
+        margin: auto;
+        width: 90%;
+        max-width: 100%;
+        padding: 15px 20px 15px 20px;
+    }
+    
+    .mejor-banco p {
+        padding: 0 30px;
+        text-align: center;
+    }
+    .mejor-banco h1 {
+        padding: 20px 30px;
+        text-align: center;
+        color: #0040A8;
+    }
+    .resultados img {
+        width: 50%;
+
+    }
+
+    .boton1, .boton2 {
+        margin: 10px 10px 30px 10px;
+        
+    }
+    .mejor-text {
+        padding: 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+    
+
+
+    
+}
+
+@media screen and (max-width: 900px) { 
+    .resultados img {
+        width: 100%;
+        margin: auto;
+
+    }
+    .res { 
+        flex-direction: column;
+    }
+    .slide_estamos {
+        
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    .mapa {
+        order: 1;
+        margin: auto;
+    }
+    .botones {
+        margin: 0;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.btn-top {
+    position: fixed;
+    display: flex;
+    margin: auto;
+    bottom:10px;
+    right: 10px;
+    justify-content: center;
+}
+.btn-top img {
+    margin:auto;
+    
+}
+.btn-top a  {
+text-align: center;
+}
