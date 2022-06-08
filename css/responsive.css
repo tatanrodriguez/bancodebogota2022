@@ -6,19 +6,23 @@
     .menu {
         width: 90%;
         max-width: 90%;
+        justify-content: center;
     }
     nav ul {
         max-width: 90%;
         width: 90%;
-        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
         
     }
-    nav  {
-        height: 67px;
-        max-width: 90%;
-        width: 90%;
-    }
 
+    nav ul li a {
+        padding: 20px 0px;
+        margin-left: 0;
+    }
+   
     .sostenible .slider {
         width: 100%;
         margin: auto;
@@ -146,6 +150,71 @@
     }
     
 
+    .menu {
+        
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        margin: auto;
+    
+    }
+    .logo {
+        display: none;
+    }
+    .menu-logo{
+        margin: 0;
+        z-index: 999;
+        width: 100%;
+        padding:0px;
+     position: fixed;
+     background:#ffffff;
+    }
+    .logores  img{
+       margin-left: 5%;
+    }
+     .menu-logo   .logores{
+         width: 100%;
+         display: flex;
+         height: 67px;
+         
+         
+         align-items: center;
+     }
+
+     .menu-logo  {
+         display: block;
+     }
+ 
+     .btn-content {
+         display: flex;
+         z-index: 999999;
+         margin-right:15px;
+     }
+    
+
+     
+    
+    nav {
+        transition: all .3s ease-in-out;
+        position: fixed;
+        display: flex;
+        flex-direction: column;justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 100vh;
+        max-width: 100%;
+        
+        transform: translateX(-120%);
+        box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.35);
+   
+    }
+
+    .active-menu {
+        transform: translateX(0%);
+    }
+    
+
     
 
 
@@ -179,18 +248,4 @@
     }
 }
 
-.btn-top {
-    position: fixed;
-    display: flex;
-    margin: auto;
-    bottom:10px;
-    right: 10px;
-    justify-content: center;
-}
-.btn-top img {
-    margin:auto;
-    
-}
-.btn-top a  {
-text-align: center;
-}
+
